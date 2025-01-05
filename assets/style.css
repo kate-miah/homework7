@@ -1,0 +1,95 @@
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-container {
+    min-width: 15vw;
+    max-width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5em 2.5em;
+    margin: 0 15px;
+    box-sizing: border-box;
+    min-height: 300px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.user-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-position {
+    font-family: 1.1em;
+    font-weight: 800;
+    margin: 1em 0 1em;
+}
+svg {
+    fill: grey;
+    width:10px;
+    height: 10px;
+}
+.user-wage {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+}
+
+.user-adress {
+    margin: 1.5em 0 0.5em;
+    font-size: 1em;
+}
+
+.user-location {
+    margin: 0.5em 0 1em;
+    font-size: 0.8em;
+}
+
+.user-adress, .user-location, .user-wage {
+    font-weight: bold;
+}
+
+.user-info, .user-status {
+    font-size: 0.8em;
+}
+
+.user-wage, .user-location, .user-info, .user-status {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.button {
+    font-weight: 800;
+    border-radius: 12px;
+    padding: 0.8em 2.5em;
+    align-self: stretch;
+}
+.button-cv {
+    background-color: white;
+    color:  dodgerblue;
+    border: 1px solid dodgerblue;
+    margin-top: 10%;
+
+}
+.button-offer {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    margin: 5% 0;
+}
+
+.user-status {
+    margin-top: 1em;
+}
